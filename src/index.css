@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Safe area for notched phones (iPhone X+) */
+body { padding-bottom: env(safe-area-inset-bottom); }
+
+/* Print: hide app chrome, show only report */
+@media print {
+  .no-print { display: none !important; }
+  #report   { color: #111 !important; background: white !important; font-family: Arial, Helvetica, sans-serif; }
+  body      { background: white; }
+}
+
+/* Tap highlight suppression for field use */
+button { -webkit-tap-highlight-color: transparent; }

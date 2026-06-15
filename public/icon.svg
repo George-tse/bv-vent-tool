@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="#1B4E8C"/>
+  <!-- Hard hat shape -->
+  <g fill="white">
+    <!-- Brim -->
+    <rect x="80" y="300" width="352" height="32" rx="16"/>
+    <!-- Crown -->
+    <path d="M256 120
+             C160 120 100 185 96 268
+             L416 268
+             C412 185 352 120 256 120Z"/>
+    <!-- Ventilation stripe -->
+    <rect x="230" y="120" width="52" height="148" fill="#1B4E8C" opacity="0.5" rx="8"/>
+    <!-- FML text area -->
+    <rect x="180" y="308" width="152" height="24" rx="8" fill="#FFD700"/>
+    <text x="256" y="325" text-anchor="middle" fill="#1B4E8C"
+          font-family="Arial,sans-serif" font-size="14" font-weight="bold">FML BV</text>
+  </g>
+  <!-- Underground level indicators -->
+  <text x="256" y="400" text-anchor="middle" fill="white" opacity="0.6"
+        font-family="Arial,sans-serif" font-size="22" font-weight="bold">VENT</text>
+</svg>
