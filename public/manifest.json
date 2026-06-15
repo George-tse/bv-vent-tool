@@ -2,7 +2,7 @@
   "name":             "BV Vent Survey Tool",
   "short_name":       "BV Vent",
   "description":      "Bonnie Vale Underground Secondary Ventilation Survey · FML-UGM-RP-002",
-  "start_url":        "/bv-vent-tool/",
+  "start_url":        "./",
   "display":          "standalone",
   "background_color": "#f9fafb",
   "theme_color":      "#1B4E8C",
